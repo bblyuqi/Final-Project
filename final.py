@@ -26,7 +26,7 @@ st.markdown("""
     /* Background utama */
     .stApp {
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-                    url("https://drive.google.com/file/d/1EHmSgAqfWiujPRdxcvLjtnQlI4nTPcuL/view?usp=drive_link");
+                    url("https://drive.google.com/thumbnail?id=1EHmSgAqfWiujPRdxcvLjtnQlI4nTPcuL&sz=w2000");
         background-size: contain;
         background-position: center;
         background-attachment: fixed;
