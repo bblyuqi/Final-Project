@@ -54,7 +54,7 @@ st.markdown("""
     
     /* Global text color */
     .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6,
-    .stApp p, .stApp label, .stApp a, .stApp div {
+    .stApp p, .stApp label, .stApp a{
         color: white !important;
     }
     
