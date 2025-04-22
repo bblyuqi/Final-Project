@@ -59,7 +59,7 @@ st.markdown("""
     }
     
     /* Specific container text color */
-    .content-container span, .content-container label, 
+    .content-container p, .content-container span, .content-container label, 
     .content-container div, .content-container h1, .content-container h2, 
     .content-container h3, .header-container p, .header-container h1, 
     .header-container h2, .header-container h3 {
@@ -153,7 +153,7 @@ st.markdown("""
     /* Alternatif styling untuk deploy button */
     .stDeployButton button {
         background-color: #3498db !important;
-        color: white !important;
+        color: white;
     }   
 
      /* Responsif untuk mobile */
