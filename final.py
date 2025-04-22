@@ -102,7 +102,7 @@ st.markdown("""
     
     /* Input field */
     .stTextInput > div, .stNumberInput > div {
-        background-color: white;
+        background-color: white !important;
         border-radius: 5px;
     }
     
@@ -129,7 +129,7 @@ st.markdown("""
     /* Deploy button styling */
     button[kind="primary"] {
         background-color: #3498db !important;
-        color: white !important;
+        color: white;
         border-radius: 5px !important;
         border: none !important;
     }
