@@ -54,13 +54,13 @@ st.markdown("""
     
     /* Global text color */
     .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6,
-    .stApp p, .stApp label, .stApp a {
+    .stApp p, .stApp label, .stApp a, .stApp div {
         color: white !important;
     }
     
     /* Specific container text color */
     .content-container p, 
-    .content-container div, .content-container h1, .content-container h2, 
+    .content-container h1, .content-container h2, 
     .content-container h3, .header-container p, .header-container h1, 
     .header-container h2, .header-container h3 {
         color: white !important;
