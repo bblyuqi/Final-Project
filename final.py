@@ -77,7 +77,7 @@ st.markdown("""
         background-color: #3498db;
         border-radius: 5px;
         padding: 8px 16px;
-        color: white !important;
+        color: white;
     }
     
     /* Styling untuk sidebar */
