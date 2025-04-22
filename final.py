@@ -559,9 +559,9 @@ def main():
     # App title and description
     st.title("🏞️ Sistem Rekomendasi Wisata Yogyakarta")
     st.markdown("""
-    <div style='background-color: rgba(52, 73, 94, 1); padding: 15px; border-radius: 5px;'>
+    <h3 style='background-color: rgba(52, 73, 94, 1); padding: 15px; border-radius: 5px;'>
     Temukan objek wisata berdasarkan lokasi dan budget Anda!
-    </div>
+    </h3>
     """, unsafe_allow_html=True)
     
     # Load and prepare data
