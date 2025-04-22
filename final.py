@@ -53,12 +53,11 @@ st.markdown("""
     }
     
     /* Perbaikan warna teks global */
-    .content-container p, .content-container span, .content-container label, .content-container div {
+    .content-container p, .content-container span, .content-container label, 
+    .content-container div, .content-container h1, .content-container h2, 
+    .content-container h3, .header-container p, .header-container h1, 
+    .header-container h2, .header-container h3 {
         color: white !important;
-    }
-    
-    .header-container p, .header-container h1, .header-container h2, .header-container h3 {
-        color: rgba(52, 73, 94, 1);
     }
     
     /* Styling untuk tab */
