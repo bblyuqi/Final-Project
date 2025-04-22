@@ -835,21 +835,21 @@ def main():
                         table.dataframe th, table.dataframe td {
                             padding: 8px;
                             text-align: left;
-                            border: 1px solid rgba(0, 0, 0, 0.8);
-                            background-color: rgba(0, 0, 0, 0.8);
+                            border: 1px solid rgba(52, 73, 94, 0.8);
+                            background-color: rgba(52, 73, 94, 0.8);
                             color: white;
                         }
                         
                         /* Target header cells specifically */
                         table.dataframe thead th {
-                            background-color: rgba(0, 0, 0, 0.8);
+                            background-color: rgba(52, 73, 94, 0.8);
                             color: white;
                         }
                         
                         /* Target index column specifically */
                         table.dataframe tbody th, table.dataframe thead tr th:first-child {
-                            background-color: rgba(0, 0, 0, 0.8);
-                            border: 1px solid rgba(0, 0, 0, 0.8);
+                            background-color: rgba(52, 73, 94, 0.8);
+                            border: 1px solid rgba(52, 73, 94, 0.8);
                             color: white;
                         }
                     </style>
@@ -880,7 +880,7 @@ def main():
     
     with tab2:
         st.markdown("""
-        <div style='background-color: rgba(0, 0, 0, 0.8); padding: 15px; border-radius: 5px;'>
+        <div style='background-color: rgba(52, 73, 94, 0.8); padding: 15px; border-radius: 5px;'>
         <h3 style='color: white;'>Tentang Sistem Rekomendasi Wisata</h3>
         
         <p style='color: white;'>Sistem rekomendasi wisata ini menggunakan metode K-Nearest Neighbors (KNN) untuk merekomendasikan objek wisata di Daerah Istimewa Yogyakarta
