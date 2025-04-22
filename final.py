@@ -59,7 +59,7 @@ st.markdown("""
     }
     
     /* Specific container text color */
-    .content-container p, .content-container span, .content-container label, 
+    .content-container span, .content-container label, 
     .content-container div, .content-container h1, .content-container h2, 
     .content-container h3, .header-container p, .header-container h1, 
     .header-container h2, .header-container h3 {
