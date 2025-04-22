@@ -837,17 +837,20 @@ def main():
                             text-align: left;
                             border: 1px solid rgba(0, 0, 0, 0.8);
                             background-color: rgba(0, 0, 0, 0.8);
+                            color: white;
                         }
                         
                         /* Target header cells specifically */
                         table.dataframe thead th {
                             background-color: rgba(0, 0, 0, 0.8);
+                            color: white;
                         }
                         
                         /* Target index column specifically */
                         table.dataframe tbody th, table.dataframe thead tr th:first-child {
                             background-color: rgba(0, 0, 0, 0.8);
                             border: 1px solid rgba(0, 0, 0, 0.8);
+                            color: white;
                         }
                     </style>
                     """
@@ -878,13 +881,13 @@ def main():
     with tab2:
         st.markdown("""
         <div style='background-color: rgba(0, 0, 0, 0.8); padding: 15px; border-radius: 5px;'>
-        <h3>Tentang Sistem Rekomendasi Wisata</h3>
+        <h3 style='color: white;'>Tentang Sistem Rekomendasi Wisata</h3>
         
-        <p>Sistem rekomendasi wisata ini menggunakan metode K-Nearest Neighbors (KNN) untuk merekomendasikan objek wisata di Daerah Istimewa Yogyakarta
+        <p style='color: white;'>Sistem rekomendasi wisata ini menggunakan metode K-Nearest Neighbors (KNN) untuk merekomendasikan objek wisata di Daerah Istimewa Yogyakarta
         berdasarkan preferensi pengguna.</p>
         
-        <p><b>Cara Kerja Sistem:</b></p>
-        <ol>
+        <p style='color: white;'><b>Cara Kerja Sistem:</b></p>
+        <ol style='color: white;'>
             <li>Pengguna memasukkan lokasi, jarak maksimum, budget, waktu kunjungan, dan preferensi kategori wisata</li>
             <li>Sistem menghitung jarak dari lokasi pengguna ke seluruh objek wisata</li>
             <li>Sistem menerapkan filter berdasarkan jarak, budget, dan kategori</li>
@@ -892,8 +895,8 @@ def main():
             <li>Hasil rekomendasi ditampilkan berdasarkan skor total yang dihitung dari berbagai faktor</li>
         </ol>
         
-        <p><b>Fitur Utama:</b></p>
-        <ul>
+        <p style='color: white;'><b>Fitur Utama:</b></p>
+        <ul style='color: white;'>
             <li>Filter berdasarkan jarak, budget, dan kategori wisata</li>
             <li>Visualisasi lokasi wisata pada peta interaktif</li>
             <li>Peringkat rekomendasi berdasarkan kesesuaian dengan preferensi pengguna</li>
