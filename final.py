@@ -52,7 +52,13 @@ st.markdown("""
         box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
     }
     
-    /* Perbaikan warna teks global */
+    /* Global text color */
+    .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6,
+    .stApp p, .stApp div, .stApp span, .stApp label, .stApp a {
+        color: white !important;
+    }
+    
+    /* Specific container text color */
     .content-container p, .content-container span, .content-container label, 
     .content-container div, .content-container h1, .content-container h2, 
     .content-container h3, .header-container p, .header-container h1, 
@@ -80,7 +86,14 @@ st.markdown("""
         padding: 1rem;
     }
     
-    [data-testid="stSidebar"] p, [data-testid="stSidebar"] span, [data-testid="stSidebar"] label {
+    [data-testid="stSidebar"] p, [data-testid="stSidebar"] span, [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3, [data-testid="stSidebar"] h4,
+    [data-testid="stSidebar"] div {
+        color: white !important;
+    }
+    
+    /* Fix specifically for the sidebar header */
+    [data-testid="stSidebar"] header {
         color: white !important;
     }
     
@@ -547,7 +560,7 @@ def main():
     st.title("🏞️ Sistem Rekomendasi Wisata Yogyakarta")
     st.markdown("""
     <div style='background-color: rgba(52, 73, 94, 1); padding: 15px; border-radius: 5px;'>
-    Temukan objek wisata yang sesuai dengan lokasi, budget Anda!
+    Temukan objek wisata berdasarkan lokasi dan budget Anda!
     </div>
     """, unsafe_allow_html=True)
     
